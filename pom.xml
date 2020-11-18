@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>frontier.learning</groupId>
-	<artifactId>brewery-example</artifactId>
+	<artifactId>spring-mvc-rest-services-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>brewery-example</name>
 	<description>Spring Framework Guru Example</description>
