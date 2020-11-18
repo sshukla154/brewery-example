@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import frontier.learning.brewery.example.services.BeerService;
 import frontier.learning.brewery.example.web.model.BeerDTO;
 
+@Deprecated
 @RequestMapping("/api/v1/beer")
 @RestController
 public class BeerController {
