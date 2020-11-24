@@ -1,5 +1,6 @@
 package frontier.learning.brewery.web.model;
 
+import java.time.OffsetDateTime;
 import java.util.UUID;
 
 import javax.validation.constraints.NotNull;
@@ -19,13 +20,18 @@ public class BeerDTO {
 
 	@Null
 	private UUID id;
-	
+
 	@NotNull
 	private String beerName;
-	
+
 	@NotNull
 	private String beerStyle;
-	
+
 	@Positive
 	private Long upc;
+
+	// Preferred dateTime for public facing interfaces
+	private OffsetDateTime createdDate;
+
+	private OffsetDateTime lastUpdatedDate;
 }
