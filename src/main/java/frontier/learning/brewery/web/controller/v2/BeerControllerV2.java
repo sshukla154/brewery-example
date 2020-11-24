@@ -19,7 +19,7 @@ import frontier.learning.brewery.services.v2.BeerServiceV2;
 import frontier.learning.brewery.web.model.v2.BeerDTOV2;
 import lombok.RequiredArgsConstructor;
 import lombok.val;
-import lombok.var;
+//import lombok.var;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
@@ -46,7 +46,7 @@ public class BeerControllerV2 {
 		//BeerDTOV2 savedBeer = beerServiceV2.saveNewBeer(beerDTOV2);
 		val savedBeer = beerServiceV2.saveNewBeer(beerDTOV2);
 		//HttpHeaders httpHeaders = new HttpHeaders();
-		var httpHeaders = new HttpHeaders();
+		val httpHeaders = new HttpHeaders();
 		// Add hostname to URL
 		httpHeaders.add("Location", "/api/v2/beer" + savedBeer.getId().toString());
 
