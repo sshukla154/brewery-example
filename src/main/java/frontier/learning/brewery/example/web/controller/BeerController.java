@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import frontier.learning.brewery.example.services.BeerService;
 import frontier.learning.brewery.example.web.model.BeerDTO;
+import lombok.val;
 
 @Deprecated
 @RequestMapping("/api/v1/beer")
@@ -38,11 +39,9 @@ public class BeerController {
 	@PostMapping
 	public ResponseEntity<BeerDTO> saveNewBeer(@Validated @RequestBody BeerDTO beerDTO) {
 		BeerDTO savedBeer = beerService.saveNewBeer(beerDTO);
-
 		HttpHeaders httpHeaders = new HttpHeaders();
 		// Add hostname to URL
 		httpHeaders.add("Location", "/api/v1/beer" + savedBeer.getId().toString());
-
 		return new ResponseEntity<BeerDTO>(httpHeaders, HttpStatus.CREATED);
 	}
 
