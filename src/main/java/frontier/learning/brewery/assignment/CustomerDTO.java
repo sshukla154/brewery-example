@@ -1,4 +1,4 @@
-package frontier.learning.brewery.example.web.model.v2;
+package frontier.learning.brewery.assignment;
 
 import java.util.UUID;
 
@@ -11,11 +11,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class BeerDTOV2 {
+public class CustomerDTO {
 
 	private UUID id;
-	private String beerName;
-	private BeerStyleEnum beerStyle;
-	private Long upc;
-
+	private String name;
 }

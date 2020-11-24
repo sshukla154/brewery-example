@@ -1,4 +1,4 @@
-package frontier.learning.brewery.example.web.controller;
+package frontier.learning.brewery.web.controller;
 
 import java.util.ArrayList;
 import java.util.List;

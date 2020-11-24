@@ -1,4 +1,4 @@
-package frontier.learning.brewery.example.assignment;
+package frontier.learning.brewery.assignment;
 
 import java.util.UUID;
 

@@ -1,8 +1,8 @@
-package frontier.learning.brewery.example.services.v2;
+package frontier.learning.brewery.services.v2;
 
 import java.util.UUID;
 
-import frontier.learning.brewery.example.web.model.v2.BeerDTOV2;
+import frontier.learning.brewery.web.model.v2.BeerDTOV2;
 
 public interface BeerServiceV2 {
 

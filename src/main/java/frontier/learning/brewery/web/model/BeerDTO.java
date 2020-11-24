@@ -1,4 +1,4 @@
-package frontier.learning.brewery.example.web.model;
+package frontier.learning.brewery.web.model;
 
 import java.util.UUID;
 

@@ -1,4 +1,4 @@
-package frontier.learning.brewery.example.web.controller.v2;
+package frontier.learning.brewery.web.controller.v2;
 
 import java.util.UUID;
 
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import frontier.learning.brewery.example.services.v2.BeerServiceV2;
-import frontier.learning.brewery.example.web.model.v2.BeerDTOV2;
+import frontier.learning.brewery.services.v2.BeerServiceV2;
+import frontier.learning.brewery.web.model.v2.BeerDTOV2;
 import lombok.RequiredArgsConstructor;
 import lombok.val;
 import lombok.var;

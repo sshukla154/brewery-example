@@ -1,11 +1,11 @@
-package frontier.learning.brewery.example.services.v2;
+package frontier.learning.brewery.services.v2;
 
 import java.util.UUID;
 
 import org.springframework.stereotype.Service;
 
-import frontier.learning.brewery.example.web.model.v2.BeerDTOV2;
-import frontier.learning.brewery.example.web.model.v2.BeerStyleEnum;
+import frontier.learning.brewery.web.model.v2.BeerDTOV2;
+import frontier.learning.brewery.web.model.v2.BeerStyleEnum;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

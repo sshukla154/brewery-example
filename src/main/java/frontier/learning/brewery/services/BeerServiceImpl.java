@@ -1,10 +1,10 @@
-package frontier.learning.brewery.example.services;
+package frontier.learning.brewery.services;
 
 import java.util.UUID;
 
 import org.springframework.stereotype.Service;
 
-import frontier.learning.brewery.example.web.model.BeerDTO;
+import frontier.learning.brewery.web.model.BeerDTO;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

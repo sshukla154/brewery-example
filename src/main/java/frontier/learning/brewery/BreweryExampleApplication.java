@@ -1,4 +1,4 @@
-package frontier.learning.brewery.example;
+package frontier.learning.brewery;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

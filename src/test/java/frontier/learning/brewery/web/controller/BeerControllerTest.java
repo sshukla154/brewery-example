@@ -1,4 +1,4 @@
-package frontier.learning.brewery.example.web.controller;
+package frontier.learning.brewery.web.controller;
 
 import static org.hamcrest.core.Is.is;
 import static org.mockito.ArgumentMatchers.any;
@@ -25,8 +25,8 @@ import org.springframework.test.web.servlet.MockMvc;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import frontier.learning.brewery.example.services.BeerService;
-import frontier.learning.brewery.example.web.model.BeerDTO;
+import frontier.learning.brewery.services.BeerService;
+import frontier.learning.brewery.web.model.BeerDTO;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(BeerController.class)

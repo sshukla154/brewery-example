@@ -1,4 +1,4 @@
-package frontier.learning.brewery.example.web.model.v2;
+package frontier.learning.brewery.web.model.v2;
 
 public enum BeerStyleEnum {
 	
